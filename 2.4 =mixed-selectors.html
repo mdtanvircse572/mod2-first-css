@@ -1,0 +1,63 @@
+<!-- Mixed Selectors multiple classes, combined selectors, attribute, div, span-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+       *{
+        /* margin: 0;..........for this ctrl+/ */
+       }
+       /* p{
+            color: red;
+        } */
+        .blog{
+            background-color: aquamarine;
+        }
+        #fifth, li{
+            color: blue;
+            font-size: 26px;<!--basic thake 16px-->
+
+        }
+        .holud, .yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        .css{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p>My first <span class="css">line css</span></p>
+    <p class="yellow">My second line css</p>
+    <p>My third line css</p>
+    <p class="yellow bold">My fourth line css</p>
+    <p class="holud">My fifth line css</p>
+    <p class="bold">My sixth line css</p>
+    <p>My seventh line css</p>
+    <ol>
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li class="bold holud">Class selector</li>
+        <li>Universal selector</li>
+    </ol>
+
+    <div class="blog">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ratione tempora amet ad. Nulla, amet quae. Voluptatum deserunt laborum iste? Praesentium repudiandae soluta, placeat ad dolorem quis dolores neque rerum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tenetur, non dolore reprehenderit facere totam sequi fugiat aperiam quis fugit veritatis tempora illum corporis, voluptas alias perferendis nihil esse autem.</p>
+
+    </div>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>
